@@ -1,0 +1,106 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.registration {
+    width: 520px;
+    height: 84px;
+    background-color: #6ba684;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.registration h1 {
+    padding-top: 32px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+form {
+    margin-top: 10px;
+    width: 520px;
+    height: 450px;
+    border: 1px solid gainsboro;
+}
+
+form p {
+    padding: 10px;
+}
+
+label a {
+    text-decoration: none;
+}
+
+.registration_link {
+    margin-top: 10px;
+    text-decoration: none;
+    width: 520px;
+    height: 48px;
+    color: #6ba684;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid gainsboro;
+}
+
+.registration_link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6ba684;
+    text-decoration: none;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.registration_link a:hover {
+    color: #ac1f2d;
+}
+
+/*textarea {*/
+/*    resize: none;*/
+/*}*/
+.link {
+    text-decoration: none;
+    color: #ac1f2d;
+}
+
+.todo {
+    text-align: right;
+    color: #ac1f2d;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.name {
+    color: #6ba684;
+    margin-left: 35px;
+}
+
+.field {
+    width: 260px;
+    height: 32px;
+    float: right;
+    margin-right: 35px;
+    padding-left: 10px;
+}
+
+.site {
+    /*float: right;*/
+    width: 145px;
+    margin-left: 140px;
+    padding-left: 10px;
+}
+
+.agreement {
+    text-align: right;
+    margin-right: 35px;
+}
